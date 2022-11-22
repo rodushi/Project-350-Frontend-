@@ -1,0 +1,73 @@
+const data = {
+    products: [
+        {
+          name: 'Sofa1',
+          slug: 'sofa-1',
+          category: 'Sofa',
+          image: '/images/Asofa.jpg',
+          price: 70000,
+          rating: 4.5,
+          numReviews: 10,
+          countInStock: 20,
+          description: 'A popular product',
+        },
+        {
+            name: 'Stole2',
+            slug: 'stole-2',
+            category: 'Stole',
+            image: '/images/BStole.jpg',
+            price: 1200,
+            rating: 3.2,
+            numReviews: 13,
+            countInStock: 34,
+            description: 'A popular product',
+          },
+          {
+            name: 'Rocking Chair1',
+            slug: 'rockingchair-1',
+            category: 'Chair',
+            image: '/images/Rocking Chair.jpg',
+            price: 14000,
+            rating: 4.4,
+            numReviews: 18,
+            countInStock: 29,
+            description: 'A popular product',
+          },
+          {
+            name: 'Table4',
+            slug: 'table-4',
+            category: 'Table',
+            image: '/images/Table1.jpg',
+            price: 9000,
+            rating: 3.1,
+            numReviews: 34,
+            countInStock: 36,
+            description: 'A popular product',
+          },
+          {
+            name: 'Cane Shelf',
+            slug: 'shelf-1',
+            category: 'Shelf',
+            image: '/images/Shelf1.jpg',
+            price: 5000,
+            rating: 5.0,
+            numReviews: 40,
+            countInStock: 43,
+            description: 'Most Popular',
+          },
+          {
+            name: 'Dolna1',
+            slug: 'dolna-1',
+            category: 'Dolna',
+            image: '/images/Dolna.jpg',
+            price: 18000,
+            rating: 5.0,
+            numReviews: 45,
+            countInStock: 60,
+            description: 'Most Popular',
+          },
+
+        ]
+
+};
+export default data;
